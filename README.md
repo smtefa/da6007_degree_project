@@ -7,10 +7,10 @@ Code for the bachelor's degree project in computer science.
 
 * The code is built from several files:
   * File [code/resnet18k.py](code/resnet18k.py) is responsible for the creation and trainig of the
-    ResNet-18 model, and it can also plot the output geometry.
+    ResNet-18 model, as well as the plotting of the output geometry.
   * File [code/data.py](code/data.py) handles the CIFAR-10 data set; including its downloading, conversion
     to data loaders and also introduction of noisy labels.
-  * File [code/helper.py](code/helper.py) includes some technical helper functions for other files, mainly
+  * File [code/helper.py](code/helper.py) includes some technical helper functions, mainly
     for plotting.
     
 * How to recreate the results:
