@@ -16,5 +16,3 @@ Code for the bachelor's degree project in computer science.
 * How to recreate the results:
   * In [code/main.py](code/main.py), adjust the parameters as desired then run the code.
 
-* To check the results obtained in the paper, see
-  [experiments/](experiments).
