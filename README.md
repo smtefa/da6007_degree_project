@@ -2,7 +2,8 @@
 Code for the bachelor's degree project in computer science.
 
 * Requirements:
-  * Python 3
+  * Python 3.11.7 or newer.
+  * PyTorch library.
   * [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 
 * The code is built from several files:
