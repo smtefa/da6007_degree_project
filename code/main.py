@@ -6,8 +6,8 @@ def main():
     parameters are set to those which recreate the figures.
     
     Warning: The number of epochs should be set with respect to the available
-    computational powers. If the GPU is not available, a very small number
-    must be chosen such as e.g. epochs=5 or epochs=10.
+    computational powers. If the GPU is not available, a very small number of
+    epochs must be chosen.
 
     Returns
     -------
