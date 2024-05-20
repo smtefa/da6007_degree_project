@@ -22,11 +22,11 @@ def main():
 
     scatter_size = 10000 # number of points in the scatter plot
     early_epochs = [1, 5, 10] # epochs for P1 of the double descent
-    mid_epochs = [20, 40, 60, 80, 100] #epochs for P2 of the double descent
+    mid_epochs = [20, 40, 60, 80, 100] # epochs for P2 of the double descent
     late_epochs = [250, 500, 750, 1000] # epochs for P3 of the double descent
     snapshots = early_epochs + mid_epochs + late_epochs # P1 + P2 + P3
     
-    plot_raw = False
+    plot_raw = False # change to True to disable softmax activation
     params = [epochs, batch_size, minibatch_size, lr]    
     scat_params = [scatter_size, snapshots, plot_raw]
     
