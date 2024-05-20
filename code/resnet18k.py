@@ -9,9 +9,9 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print('Using ' + str(device)) # print if cpu or gpu is being used
 
 
+#------------------------------------------------------------------------------
 # A ResNet-18k model based on the pre-activation blocks. Source:
 # https://gitlab.com/harvard-machine-learning/double-descent/tree/master
-#------------------------------------------------------------------------------
 class PreActBlock(nn.Module):
     expansion = 1
 
@@ -81,8 +81,7 @@ def make_resnet18k(k=64, num_classes=10) -> PreActResNet:
 def train_resnet18k(k, params, noise=0.2, scat_params=[]):
     '''
     The main training and testing function for the ResNet-18 model. If
-    scat_params is provided, this function will also plot the output geometry
-    from Figures 7-9.
+    scat_params is provided, this function will also plot the output geometry.
 
     Parameters
     ----------
