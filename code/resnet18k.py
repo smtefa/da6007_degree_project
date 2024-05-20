@@ -244,7 +244,7 @@ def train_resnet18k(k, params, noise=0.2, scat_params=[]):
     
 def compare_noises(params, scat_params):
     '''
-    Function that recreates Figure 6.
+    Function that recreates the learning curves.
 
     Parameters
     ----------
