@@ -2,8 +2,8 @@ from resnet18k import compare_noises
 
 def main():
     '''
-    The main code used to reproduce figures in Section 4.2. The default
-    parameters are set to those which recreate the figures.
+    The main code used to reproduce the figures. The default parameters are
+    set to those which recreate the figures.
     
     Warning: The number of epochs should be set with respect to the available
     computational powers. If the GPU is not available, a very small number of
