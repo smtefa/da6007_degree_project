@@ -15,7 +15,7 @@ def main():
 
     '''
     # Hyper-parameters
-    epochs = 100
+    epochs = 1000
     batch_size = 100 # batch size used by PyTorch's data loader
     minibatch_size = 100 # running losses' reset mark
     lr = 1e-4 # learning rate used by Adam
